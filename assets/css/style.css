@@ -3,3 +3,318 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* section about travel start */
+.aboutTravel {
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.img-box {
+    
+    height: 620px;
+    width: 100%;
+    background-image: url(images/gffg-min.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+.empty-box {
+    height: 410px;
+    width: 980px;
+    background-color: #e83f47;
+    position: absolute;
+    top: 433px;
+    right: 284px;
+}
+.growth-strategy {
+    width: 861px;
+    height: 516px;
+    background-color: #292d33;
+    position: absolute;
+    right: 342px;
+    bottom: 211px;
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+.growth-strategy h2 {
+    width: 799px;
+    height: 24px;
+    margin: 0 1px;
+    text-align: center!important;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: white;
+
+}
+.growth-strategy h1 {
+    width: 622px ;
+    height: 93px;
+    margin: 20px auto 0;
+    text-align: center!important;
+    color: white;
+    font-size: 4.5rem;
+    font-family: Oswald, sans-serif !important;
+    line-height: 1.1;
+    font-weight: 700;
+}
+.growth-strategy p {
+    width: 799px;
+    height: 98px;
+    margin: 20px 1px 0;
+    text-align: center!important;
+    color: white;
+    line-height: 1.8;
+    font-size: 1.125rem;
+    font-family: Montserrat,sans-serif;
+}
+.img {
+    text-align: center!important;
+    color: white;
+    line-height: 1.8;
+    font-size: 1.125rem;
+    font-family: Montserrat,sans-serif;
+    position: absolute;
+    left: 5px;
+}
+
+.freepik {
+    position: relative;
+    top: 19px;
+    left:  48px;
+    text-align: center!important;
+    color: white;
+    line-height: 1.8;
+    font-size: 1.125rem;
+    font-family: Montserrat,sans-serif;
+}
+.freepik:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.button {
+    border: 2px solid red;
+    width: 231px;
+    height: 72px;
+    position: absolute;
+    bottom: 85px;
+    left: 312px;
+    padding: 25px 47px 20px 46px;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    font-family: Montserrat,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: red;
+}
+/* end section */
+
+/* start information section */
+.information {
+    width: 100%;
+    height: 1500px;
+    background-color: #e5e5e5;
+    position: relative;
+    bottom: 381px;
+    z-index: -1;
+}
+.red-box {
+    width: 318px;
+    height: 360px;
+    background-color: #e83f47;
+    position: absolute;
+    top: 360px;
+    left: 284px;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 0.8;
+    color: white;
+    font-family: Oswald,sans-serif;
+    padding: 35px 23px;
+}
+.paragraf h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: Oswald,sans-serif;
+    text-align: justify;
+    color: #111111;
+    position: absolute;
+    top: 384px;
+    right: 280px;
+}
+.paragraf p {
+    font-family: Montserrat,sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: #111111;
+    position: absolute;
+    bottom: 804px;
+    right: 366px;
+}
+.consulting h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.1;
+    font-family: Oswald,sans-serif;
+    text-align: justify;
+    color: #111111;
+    position: absolute;
+    bottom: 530px;
+    right: 499px;
+}
+.consulting p {
+    font-family: Montserrat,sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.8;
+    text-align: justify;
+    color: #111111;
+    position: absolute;
+    bottom: 479px;
+    left: 423px;
+}
+.boxes {
+    border: 1px solid transparent;
+    width: 1200px;
+    height: 450px;
+    position: absolute;
+    bottom: 5px;
+    right: 137px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+
+.box1 {
+    width: 263px;
+    height: 411px;
+    border:1px solid transparent;
+    background-color: white;
+    text-align: center;
+    padding: 39px;
+   
+}
+.box1 h3 {
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #111111;
+    line-height: 1.2;
+    letter-spacing: 2px;
+
+}
+.box1 p {
+    
+    font-size: 1.125rem;
+    font-style: italic;
+    font-family: Montserrat,sans-serif;
+    line-height: 1.8;
+    color: #555c66 !important
+}
+.box1 a {
+    color: #0f0f0f !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.box2 {
+    width: 263px;
+    height: 411px;
+    border:1px solid transparent;
+    background-color: white;
+    text-align: center;
+    padding: 39px;
+
+}
+.box2 h3 {
+    font-family: Montserrat,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #111111;
+    line-height: 1.2;
+    letter-spacing: 2px;
+
+}
+.box2 p {
+    font-size: 1.125rem;
+    font-style: italic;
+    font-family: Montserrat,sans-serif;
+    line-height: 1.8;
+    color: #555c66 !important
+
+}
+.box2 a {
+    color: #0f0f0f !important;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: Montserrat,sans-serif;
+    font-size: 1.125rem;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+.fa-lightbulb {
+    border: 1px solid transparent;
+    width: 64px;
+    height: 68px;
+    font-size: 55px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fdeaeb !important;
+    color: red;
+}
+.fa-square-poll-horizontal {
+    border: 1px solid transparent;
+    width: 73px;
+    height: 67px;
+    font-size: 55px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fdeaeb !important;
+    color: red;
+}
+.fa-flask {
+    border: 1px solid transparent;
+    width: 64px;
+    height: 68px;
+    font-size: 55px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fdeaeb !important;
+    color: red;
+}
+.fa-user-large {
+    border: 1px solid transparent;
+    width: 67px;
+    height: 71px;
+    font-size: 55px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #fdeaeb !important;
+    color: red;
+}
+.imgbox {
+    width: 100%;
+    height: 447px;
+    background-image: url(images/fdrt-min.jpg);
+    position: relative;
+    bottom: 398px;
+}
+
+
+
