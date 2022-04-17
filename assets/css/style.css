@@ -202,6 +202,9 @@
     background-color: white;
     text-align: center;
     padding: 39px;
+    position: relative;
+    top: 107px;
+    box-shadow: 5px 5px 0 0 rgb(0 0 0 / 20%); ;
    
 }
 .box1 h3 {
@@ -238,6 +241,7 @@
     background-color: white;
     text-align: center;
     padding: 39px;
+    box-shadow: 5px 5px 0 0 rgb(0 0 0 / 20%);;
 
 }
 .box2 h3 {
@@ -255,7 +259,8 @@
     font-style: italic;
     font-family: Montserrat,sans-serif;
     line-height: 1.8;
-    color: #555c66 !important
+    color: #555c66 !important;
+    
 
 }
 .box2 a {
@@ -314,7 +319,103 @@
     background-image: url(images/fdrt-min.jpg);
     position: relative;
     bottom: 398px;
+    z-index: -2;
 }
+/* end section */
+
+
+ /* start about section */
+.color-box {
+    width: 100%;
+    height: 779px;
+    background:#e5e5e5;
+    position: relative;
+    bottom: 400px;
+    z-index: -3;
+}
+.square-box {
+    width: 431px;
+    height: 285px;
+    background-color: #e83f47;
+    border: 1px solid transparent;
+    margin: auto;
+    position: absolute;
+    top: 80px;
+    right: 330px;
+}
+.quisque {
+    width: 375px;
+    height: 68px;
+    text-align: justify;
+    color: white;
+    border: 1px solid transparent;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Oswald,sans-serif;
+    margin-left: 32px;
+    margin-top: 43px;
+    line-height: 1.2;
+}
+.article {
+    width: 388px;
+    height: 87px;
+    border: 1px solid transparent;
+    margin-left: 32px;
+    margin-top: 13px;
+    color: white;
+    font-size: 0.875rem;
+    line-height: 2;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    text-align: justify;
+}
+.text-box {
+    width: 600px;
+    height: 310px;
+    border: 1px solid transparent;
+    position: absolute;
+    bottom: 92px;
+    left: 213px;
+}
+.text-box h2 {
+    border: 1px solid transparent;
+    width: 576px;
+    height: 106px;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: right;
+    font-family: Oswald,sans-serif;
+    line-height: 1.1;
+    margin-left: 22px;
+    margin-top: 5px;
+}
+.text-box p {
+    width: 575px;
+    height: 195px;
+    border: 1px solid transparent;
+    text-align: right;
+    font-family: Montserrat,sans-serif;
+    font-size: 20px;
+    line-height: 1.8;
+    margin-left: 22px;
+    color: black;
+}
+.number-box {
+    width: 166px;
+    height: 123px;
+    border: 1px solid transparent;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 0.8;
+    font-family: Oswald,sans-serif;
+    position: absolute;
+    bottom: 271px;
+    right: 354px;
+}
+/* end section */
+
+
+
 
 
 
